@@ -38,12 +38,12 @@ variable "api_key" {
 }
 
 variable "tfe_organization" {
-  type = string
+  type        = string
   description = "(Required) Name of the Terraform Cloud organization."
 }
 
 variable "tfe_workspace_name" {
-  type = string
+  type        = string
   description = "(Required) Name of the network workspace to get information from."
 }
 
